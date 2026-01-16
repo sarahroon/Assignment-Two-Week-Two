@@ -12,13 +12,6 @@ button.addEventListener("click", function (event) {
 });
 
 const audio = document.querySelector("audio");
-audio.play();
-const button = document.querySelector("button");
-button.addEventListener("click", function (event) {
-  audio.play();
-});
-
-const audio = document.querySelector("audio");
 audio.pause();
 const button = document.querySelector("button");
 button.addEventListener("click", function (event) {
@@ -27,7 +20,7 @@ button.addEventListener("click", function (event) {
 
 const audio = document.querySelector("audio");
 audio.stop();
-const button = document.querySelector("button";
+const button = document.querySelector("button");
 button.addEventListener("click", function (event) {
   audio.stop();
 });
@@ -39,7 +32,22 @@ slider.addEventListener("change", function (event) {
 });
 
 const video = document.querySelector("video");
+video.play();
+const button = document.querySelector("button");
+button.addEventListener("click", function (event) {
+  video.play(); 
+});
+
+const video = document.querySelector("video");
 video.pause();
-const button = video.addEventListener("pause", function (event) {
+const button = document.querySelector("button");
+button.addEventListener("click", function (event) {
   video.pause(); 
+});
+
+const video = document.querySelector("video");
+video.stop();
+const button = document.querySelector("button");
+button.addEventListener("click", function (event) {
+  video.stop(); 
 });
