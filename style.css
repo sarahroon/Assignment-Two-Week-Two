@@ -9,11 +9,6 @@ img {
  height: 250px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 html {
   font-size: 12px;
 }
