@@ -1,5 +1,3 @@
-// START RESPONSIVE DESIGN
-
 .intro-text {
  margin-inline: auto;
  max-width: fit-content;
@@ -9,10 +7,6 @@ img {
  display: block;
  max-width: 100%;
 }
-
-// END RESPONSIVE DESIGN
-
-// START MEDIA QUERY
 
 * {
   box-sizing: border-box;
@@ -43,5 +37,3 @@ p {
   color: Lavender;
  }
 }
-
-// END MEDIA QUERY
