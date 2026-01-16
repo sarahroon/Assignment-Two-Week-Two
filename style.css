@@ -31,19 +31,17 @@ p {
   color: black;
 }
 
-.navbar {
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #F0FFFF;
+    display: flex;
+    border: 1px solid #000000;
+    position: sticky;
+    top: 0;
 }
 
-.navbar li {
-   margin-right: 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: black;
+.ul li a.active {
+    background-color: #00FFFF;
 }
