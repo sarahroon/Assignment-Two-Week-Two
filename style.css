@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-color: DarkBlue;
+  background-color: HotPink;
   font-size: 1rem;
 }
 
@@ -26,14 +26,8 @@ body {
   body {
     background-color: Indigo;  
  }
-}
-
-@media (min-width: 600px) and (max-width: 900px) {
-  body {
-    background-color: HotPink;
-  }
 
 p {
-  color: Lavender;
+  color: black;
  }
 }
