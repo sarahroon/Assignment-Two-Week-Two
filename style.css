@@ -27,4 +27,34 @@ img {
 
 // START MEDIA QUERY
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background-color: DarkBlue;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: Indigo;  
+ }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  body {
+    background-color: HotPink;
+  }
+
+p {
+  color: Lavender;
+ }
+}
+
 // END MEDIA QUERY
