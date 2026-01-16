@@ -18,13 +18,13 @@ html {
 }
 
 body {
-  background-color: HotPink;
+  background-color: pink;
   font-size: 1rem;
 }
 
 @media (max-width: 800px) {
   body {
-    background-color: HotPink;  
+    background-color: pink;  
  }
 
 p {
