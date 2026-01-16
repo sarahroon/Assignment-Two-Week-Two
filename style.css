@@ -42,6 +42,6 @@ p {
     top: 0;
 }
 
-.ul li a.active {
+.ul li a {
     background-color: #00FFFF;
 }
