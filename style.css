@@ -1,1 +1,22 @@
+ .intro-text {
+ margin-inline: auto;
+ max-width: fit-content;
+}
 
+.container {
+ background: #6495ED;
+ display: flex;
+ flex-wrap: wrap;
+ width: 10px;
+ padding: 10px;
+}
+
+.box {
+ border: 2px cyan;
+ border-radius: 1rem;
+}
+
+img {
+ display: block;
+ max-width: 100%;
+}
