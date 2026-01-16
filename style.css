@@ -29,5 +29,16 @@ body {
 
 p {
   color: black;
- }
+}
+
+nav ul {
+
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ display: inline;
+ margin-right: 15px;
+ text-decoration: none;
+ color: #000000;
+ font-weight: bold;
 }
