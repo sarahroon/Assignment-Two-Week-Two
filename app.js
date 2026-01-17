@@ -21,5 +21,5 @@ button.addEventListener('click', function() {
                                                 console.log("Button clicked!");
                                                                                 });
                                                                             } else {
-                                                                                console.error("Error: Button not found in the DOM.');
+                                                                                console.error("Error: Button not found in the DOM.");
 });
