@@ -5,8 +5,8 @@ if (button && audio) {
   button.addEventListener("click", () -> {
     if (audio.paused) {
       audio.play();
-      button.textContent = "Pause Audio");
+      button.textContent = "Pause Audio";)
     } else {
       audio.pause();
-      button.textContent = "Play Audio");
+      button.textContent = "Play Audio";)
     }
