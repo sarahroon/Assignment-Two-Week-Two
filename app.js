@@ -1,7 +1,7 @@
 let button = document.getElementById("myButton");
 let audio= document.getElementById("myAudio");
-console.log("button");
-if (button && audio) {
+
+if (myButton && myAudio) {
   button.addEventListener("click", () -> {
     if (audio.paused) {
       audio.play();
@@ -9,4 +9,4 @@ if (button && audio) {
     } else {
       audio.pause();
       button.textContent = "Play Audio";
-  }
+    
