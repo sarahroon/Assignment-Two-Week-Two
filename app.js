@@ -19,5 +19,4 @@ document.getElementById('myButton');
          if (button) {
 button.addEventListener('click', function() {
                                                 console.log("Button clicked!");
-                                                                                });
-                                                                            
+});
