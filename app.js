@@ -1,10 +1,11 @@
-const audio = document.getElementById("audio");
+const audio = document.getElementById("myAudio");
 
-document.getElementById("playBtn").addEventListener("click", function () {
+function playAudio() {
   audio.play();
-});
+}
 
-document.getElementById("pauseBtn").addEventListener("click", function () {
+function pauseAudio() {
   audio.pause();
-});
+}
+
                                                      
