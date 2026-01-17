@@ -10,4 +10,3 @@ if (button && audio) {
       audio.pause();
       button.textContent = "Play Audio";
     }
-  });
