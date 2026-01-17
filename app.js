@@ -11,6 +11,15 @@ if (button && audio) {
       button.textContent = "Play Audio";
     }
   });
-} else {
-  console.error("Button or audio element not found in the DOM.");
-}
+
+document.addEventListener('DOMContentLoaded', function() {
+                                                 const button =
+document.getElementById('myButton');
+
+         if (button) {
+button.addEventListener('click', function() {
+                                                console.log('Button clicked!');
+                                                                                });
+                                                                            } else {
+                                                                                console.error("Error: Button not found in the DOM.');
+});
