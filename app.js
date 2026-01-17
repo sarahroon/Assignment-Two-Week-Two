@@ -1,3 +1,5 @@
+let button ="click";
+console.log(button);
 button.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
