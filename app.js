@@ -11,12 +11,3 @@ if (button && audio) {
       button.textContent = "Play Audio";
     }
   });
-
-document.addEventListener('DOMContentLoaded', function() {
-                                                 const button =
-document.getElementById('myButton');
-
-         if (button) {
-button.addEventListener('click', function() {
-                                                console.log("Button clicked!");
-});
