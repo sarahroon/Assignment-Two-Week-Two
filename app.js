@@ -5,24 +5,17 @@ image.addEventListener("load", function (event) {
 });
 
 const audio = document.querySelector("audio");
-audio.play();
+button.onclick = () => audio.play();
 const button = document.querySelector("button");
 button.addEventListener("click", function (event) {
   audio.play();
 });
 
 const audio = document.querySelector("audio");
-audio.pause();
+button.onclick = () => audio.pause();
 const button = document.querySelector("button");
 button.addEventListener("click", function (event) {
   audio.pause();
-});
-
-const audio = document.querySelector("audio");
-audio.stop();
-const button = document.querySelector("button");
-button.addEventListener("click", function (event) {
-  audio.stop();
 });
 
 const audio = document.querySelector("audio");
@@ -31,23 +24,7 @@ slider.addEventListener("change", function (event) {
   audio.volume = event.target.value;
 });
 
-const video = document.querySelector("video");
-video.play();
-const button = document.querySelector("button");
-button.addEventListener("click", function (event) {
-  video.play(); 
-});
 
-const video = document.querySelector("video");
-video.pause();
-const button = document.querySelector("button");
-button.addEventListener("click", function (event) {
-  video.pause(); 
-});
 
-const video = document.querySelector("video");
-video.stop();
-const button = document.querySelector("button");
-button.addEventListener("click", function (event) {
-  video.stop(); 
+
 });
