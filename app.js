@@ -1,6 +1,6 @@
 let button = document.getElementById("myButton");
 let audio= document.getElementById("myAudio");
-console.log(button);
+console.log("button");
 if (button && audio) {
   button.addEventListener("click", () => {
     if (audio.paused) {
@@ -18,7 +18,7 @@ document.getElementById('myButton');
 
          if (button) {
 button.addEventListener('click', function() {
-                                                console.log('Button clicked!');
+                                                console.log("Button clicked!");
                                                                                 });
                                                                             } else {
                                                                                 console.error("Error: Button not found in the DOM.');
