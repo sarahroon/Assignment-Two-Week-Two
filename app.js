@@ -1,4 +1,4 @@
-const audio = document.getElementById("myAudio");
+const audio = document.getElementById("audioPlayer");
 
 function playAudio() {
   audio.play();
