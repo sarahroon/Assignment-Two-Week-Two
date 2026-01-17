@@ -8,5 +8,5 @@ if (myButton && myAudio) {
       button.textContent = "Pause Audio";
     } else {
       audio.pause();
-      button.textContent = "Play Audio";
+      button.textContent = "Play Audio"; {
     
