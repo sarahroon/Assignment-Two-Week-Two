@@ -1,14 +1,20 @@
-let button = document.getElementById("myButton");
-let audio= document.getElementById("myAudio");
+const audio = document.getElementById("myAudio");
+const link = document.getElementById("audioLink");
 
-if (button && audio) {
-  button.addEventListener("click", ()=> {
-    if (audio.paused) {
-      audio.play();
-      button.textContent = "Pause Audio";
-    } else {
-      audio.pause();
-      button.textContent = "Play Audio";
-    }
-  });
+let isPlaying = false;
+
+function toggleAudio(e) {
+  e.preventDefault();
+
+  if (!isPlaying) {
+    audio.play();
+    isPlaying = true;
+    link.textContent = "Pause audio";
+  } else {
+    audio.pause();
+    isPlaying = false;
+    link.textContent = "Play audio";
+  }
 }
+
+link.addEventListener("click", toggleAudio);
